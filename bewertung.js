@@ -30,7 +30,7 @@ function addCourseName(value, index, array) {
 function setFncSubmit(value, index, array) {
         $(document).ready(function(){
             var form = $('form#cs-form-' + value),
-              url = 'https://script.google.com/macros/s/AKfycbzulksT18KOW7HGiofnlOY8SgqEpVJM684npIFd/exec';
+              url = 'https://docs.google.com/spreadsheets/d/1oroRu6vXotrci60M2J-zQoLiAtg94EuMSMvvFD630xw/edit#gid=0';
               form.submit(function(e){
                 e.preventDefault();
               var jqxhr = $.ajax({
